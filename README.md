@@ -66,11 +66,22 @@ Detailed quantitative results and evaluation plots are provided in the project r
 
 ## Project Structure
 LFAT-Deepfake-Detection/
-├── notebooks/ # Training and evaluation notebooks
-├── models/ # Trained model weights
-├── results/ # Evaluation metrics and outputs
-├── assets/ # Architecture diagrams and figures
-├── requirements.txt # Python dependencies
+│
+├── notebooks/
+│   └── lfat_training_evaluation.ipynb
+│
+├── models/
+│   ├── lfat_best_model.h5
+│   └── README.md
+│
+├── results/
+│   ├── metrics.txt
+│   └── evaluation_plots/
+│
+├── assets/
+│   └── lfat_architecture.png
+│
+├── requirements.txt
 └── README.md
 
 ---
