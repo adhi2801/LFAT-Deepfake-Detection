@@ -92,7 +92,6 @@ LFAT-Deepfake-Detection/
 ## How to Run
 
 ### Install dependencies
-```bash
 
 pip install -r requirements.txt
 
